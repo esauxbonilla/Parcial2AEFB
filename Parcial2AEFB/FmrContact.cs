@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Parcial2AEFB
 {
-    public partial class FrmCustomer : Form
+    public partial class FmrContact : Form
     {
-        public FrmCustomer()
+        public FmrContact()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

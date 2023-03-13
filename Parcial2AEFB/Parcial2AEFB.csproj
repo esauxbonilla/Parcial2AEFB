@@ -62,21 +62,67 @@
     <Compile Include="Data\Employee.cs" />
     <Compile Include="Data\Inventory.cs" />
     <Compile Include="Data\Location.cs" />
+    <Compile Include="FmrContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmrContact.Designer.cs">
+      <DependentUpon>FmrContact.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmCustomer.Designer.cs">
       <DependentUpon>FrmCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployee.Designer.cs">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInventory.Designer.cs">
+      <DependentUpon>FrmInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocation.Designer.cs">
+      <DependentUpon>FrmLocation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202303131457139_initial.cs" />
     <Compile Include="Migrations\202303131457139_initial.designer.cs">
       <DependentUpon>202303131457139_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202303131506562_Second.cs" />
+    <Compile Include="Migrations\202303131506562_Second.designer.cs">
+      <DependentUpon>202303131506562_Second.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmrContact.resx">
+      <DependentUpon>FmrContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInventory.resx">
+      <DependentUpon>FrmInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocation.resx">
+      <DependentUpon>FrmLocation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202303131457139_initial.resx">
       <DependentUpon>202303131457139_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303131506562_Second.resx">
+      <DependentUpon>202303131506562_Second.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

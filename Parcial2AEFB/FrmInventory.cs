@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Parcial2AEFB
 {
-    public partial class FrmCustomer : Form
+    public partial class FrmInventory : Form
     {
-        public FrmCustomer()
+        public FrmInventory()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
