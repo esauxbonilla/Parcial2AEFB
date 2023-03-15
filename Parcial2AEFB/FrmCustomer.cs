@@ -21,5 +21,20 @@ namespace Parcial2AEFB
         {
 
         }
+
+        private void LblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtLastName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

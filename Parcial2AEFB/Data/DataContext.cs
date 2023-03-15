@@ -6,7 +6,7 @@ namespace Parcial2AEFB.Data
     {
         DbSet<Customer> Customers { get; set; }
         DbSet<Employee> Employees { get; set;}
-       DbSet<Contact> Contacts { get; set; }
+        DbSet<Contact> Contacts { get; set; }
         DbSet<Inventory> Inventories { get; set; }
         DbSet<Location> Locations { get; set; }
 

@@ -28,131 +28,156 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Quantity = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.TxtCode = new System.Windows.Forms.TextBox();
+            this.LblCode = new System.Windows.Forms.Label();
+            this.LblPrice = new System.Windows.Forms.Label();
             this.LblQuantity = new System.Windows.Forms.Label();
             this.TxtDescription = new System.Windows.Forms.TextBox();
             this.LblDescription = new System.Windows.Forms.Label();
             this.LblName = new System.Windows.Forms.Label();
             this.TxtName = new System.Windows.Forms.TextBox();
+            this.LblTitle = new System.Windows.Forms.Label();
+            this.NmrQuantity = new System.Windows.Forms.NumericUpDown();
+            this.NmrPrice = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.NmrQuantity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NmrPrice)).BeginInit();
             this.SuspendLayout();
             // 
-            // Quantity
+            // TxtCode
             // 
-            this.Quantity.Location = new System.Drawing.Point(110, 195);
-            this.Quantity.Name = "Quantity";
-            this.Quantity.Size = new System.Drawing.Size(100, 20);
-            this.Quantity.TabIndex = 49;
+            this.TxtCode.Location = new System.Drawing.Point(126, 341);
+            this.TxtCode.Name = "TxtCode";
+            this.TxtCode.Size = new System.Drawing.Size(100, 20);
+            this.TxtCode.TabIndex = 48;
             // 
-            // textBox5
+            // LblCode
             // 
-            this.textBox5.Location = new System.Drawing.Point(110, 336);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 48;
+            this.LblCode.AutoSize = true;
+            this.LblCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCode.Location = new System.Drawing.Point(28, 341);
+            this.LblCode.Name = "LblCode";
+            this.LblCode.Size = new System.Drawing.Size(59, 20);
+            this.LblCode.TabIndex = 47;
+            this.LblCode.Text = "Código";
             // 
-            // label5
+            // LblPrice
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(55, 339);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
-            this.label5.TabIndex = 47;
-            this.label5.Text = "Código";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(110, 268);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 46;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(55, 271);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
-            this.label4.TabIndex = 45;
-            this.label4.Text = "Precio";
+            this.LblPrice.AutoSize = true;
+            this.LblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPrice.Location = new System.Drawing.Point(28, 279);
+            this.LblPrice.Name = "LblPrice";
+            this.LblPrice.Size = new System.Drawing.Size(53, 20);
+            this.LblPrice.TabIndex = 45;
+            this.LblPrice.Text = "Precio";
             // 
             // LblQuantity
             // 
             this.LblQuantity.AutoSize = true;
-            this.LblQuantity.Location = new System.Drawing.Point(55, 202);
+            this.LblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblQuantity.Location = new System.Drawing.Point(273, 92);
             this.LblQuantity.Name = "LblQuantity";
-            this.LblQuantity.Size = new System.Drawing.Size(49, 13);
+            this.LblQuantity.Size = new System.Drawing.Size(73, 20);
             this.LblQuantity.TabIndex = 44;
             this.LblQuantity.Text = "Cantidad";
             // 
             // TxtDescription
             // 
-            this.TxtDescription.Location = new System.Drawing.Point(124, 122);
+            this.TxtDescription.Location = new System.Drawing.Point(126, 155);
+            this.TxtDescription.Multiline = true;
             this.TxtDescription.Name = "TxtDescription";
-            this.TxtDescription.Size = new System.Drawing.Size(100, 20);
+            this.TxtDescription.Size = new System.Drawing.Size(279, 89);
             this.TxtDescription.TabIndex = 43;
             // 
             // LblDescription
             // 
             this.LblDescription.AutoSize = true;
-            this.LblDescription.Location = new System.Drawing.Point(55, 125);
+            this.LblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblDescription.Location = new System.Drawing.Point(28, 155);
             this.LblDescription.Name = "LblDescription";
-            this.LblDescription.Size = new System.Drawing.Size(63, 13);
+            this.LblDescription.Size = new System.Drawing.Size(92, 20);
             this.LblDescription.TabIndex = 42;
             this.LblDescription.Text = "Descripción";
             // 
             // LblName
             // 
             this.LblName.AutoSize = true;
-            this.LblName.Location = new System.Drawing.Point(55, 48);
+            this.LblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblName.Location = new System.Drawing.Point(26, 94);
             this.LblName.Name = "LblName";
-            this.LblName.Size = new System.Drawing.Size(44, 13);
+            this.LblName.Size = new System.Drawing.Size(65, 20);
             this.LblName.TabIndex = 40;
             this.LblName.Text = "Nombre";
             // 
             // TxtName
             // 
-            this.TxtName.Location = new System.Drawing.Point(124, 45);
+            this.TxtName.Location = new System.Drawing.Point(124, 94);
             this.TxtName.Name = "TxtName";
             this.TxtName.Size = new System.Drawing.Size(100, 20);
             this.TxtName.TabIndex = 50;
+            // 
+            // LblTitle
+            // 
+            this.LblTitle.AutoSize = true;
+            this.LblTitle.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.LblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitle.Location = new System.Drawing.Point(25, 26);
+            this.LblTitle.Name = "LblTitle";
+            this.LblTitle.Size = new System.Drawing.Size(166, 37);
+            this.LblTitle.TabIndex = 51;
+            this.LblTitle.Text = "Inventario";
+            this.LblTitle.Click += new System.EventHandler(this.LblTitle_Click);
+            // 
+            // NmrQuantity
+            // 
+            this.NmrQuantity.Location = new System.Drawing.Point(368, 92);
+            this.NmrQuantity.Name = "NmrQuantity";
+            this.NmrQuantity.Size = new System.Drawing.Size(120, 20);
+            this.NmrQuantity.TabIndex = 52;
+            // 
+            // NmrPrice
+            // 
+            this.NmrPrice.Location = new System.Drawing.Point(126, 279);
+            this.NmrPrice.Name = "NmrPrice";
+            this.NmrPrice.Size = new System.Drawing.Size(120, 20);
+            this.NmrPrice.TabIndex = 53;
             // 
             // FrmInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(520, 410);
+            this.Controls.Add(this.NmrPrice);
+            this.Controls.Add(this.NmrQuantity);
+            this.Controls.Add(this.LblTitle);
             this.Controls.Add(this.TxtName);
-            this.Controls.Add(this.Quantity);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.TxtCode);
+            this.Controls.Add(this.LblCode);
+            this.Controls.Add(this.LblPrice);
             this.Controls.Add(this.LblQuantity);
             this.Controls.Add(this.TxtDescription);
             this.Controls.Add(this.LblDescription);
             this.Controls.Add(this.LblName);
             this.Name = "FrmInventory";
-            this.Text = "FrmInventory";
+            this.Text = "Inventario";
+            ((System.ComponentModel.ISupportInitialize)(this.NmrQuantity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NmrPrice)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox Quantity;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox TxtCode;
+        private System.Windows.Forms.Label LblCode;
+        private System.Windows.Forms.Label LblPrice;
         private System.Windows.Forms.Label LblQuantity;
         private System.Windows.Forms.TextBox TxtDescription;
         private System.Windows.Forms.Label LblDescription;
         private System.Windows.Forms.Label LblName;
         private System.Windows.Forms.TextBox TxtName;
+        private System.Windows.Forms.Label LblTitle;
+        private System.Windows.Forms.NumericUpDown NmrQuantity;
+        private System.Windows.Forms.NumericUpDown NmrPrice;
     }
 }

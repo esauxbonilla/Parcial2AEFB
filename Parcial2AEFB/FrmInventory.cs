@@ -16,5 +16,10 @@ namespace Parcial2AEFB
         {
             InitializeComponent();
         }
+
+        private void LblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
